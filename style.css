@@ -1,0 +1,78 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    overflow:auto;
+}
+header{
+    margin: 0px;
+    background-color: bisque;
+    padding: 3%;
+}
+
+.likes{
+    float: right;
+    width: 20%;
+}
+
+.likes p{
+    display: inline-block;
+    padding-right: 10px;
+}
+
+#like-button{
+    display: inline-block;
+}
+
+#title{
+    display: inline-block; 
+    margin: 10px;
+    text-align: center;
+   
+}
+
+#title-button{
+    padding: 5px;
+}
+
+#title-input{
+padding: 5px;
+margin-left: 15px;
+}
+
+#link-list{
+    margin-top: 20%;
+}
+.links{
+    text-decoration: none;
+    display: block;
+    color:bisque;
+    margin: 15%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.column{
+    float: left;
+    height:100%;
+}
+
+aside{
+    width: 20%;
+    background-color: darkslateblue;
+}
+
+main{
+    width: 80%;
+    background-color:darkslategray;
+}
+
+main .story-section{
+    margin: 10%;
+    color: white;
+    font-size: 30px;
+}
+
+.next-button{
+    padding: 5px;
+    font-size: 20px;
+}
